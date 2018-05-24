@@ -2,23 +2,23 @@
 
 
 ### COPY THE HTML FROM:    HTML template with Bootstrap@3.3.1 by CDN
-Source:  https://gist.github.com/Pelirrojo/e111662431e642388e57572fca8efb05 
+#### Source:  https://gist.github.com/Pelirrojo/e111662431e642388e57572fca8efb05 
   
   
  
 ### PASTE IN CODEPEN 
-Source:  https://codepen.io/taniabatista/pen/JvQjdv
+#### Paste to:  https://codepen.io/taniabatista/pen/JvQjdv
 
  
 ### ADD LIBRARIES UNDER     < !-- Bootstrap -- >
-Source:  https://cdnjs.com/libraries/nvd3/1.8.5
+#### Source:  https://cdnjs.com/libraries/nvd3/1.8.5
 
 <link rel="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.css">
   
   
   
 ### ADD STYLE UNDER      < !-- Bootstrap -- >
-Source:  https://github.com/novus/nvd3/blob/master/examples/bulletChart.html 
+#### Source:  https://github.com/novus/nvd3/blob/master/examples/bulletChart.html 
 
 <style>
       text {
@@ -37,19 +37,19 @@ Source:  https://github.com/novus/nvd3/blob/master/examples/bulletChart.html
     
     
     
-### ADD SCRIPT UNDER 	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-Source:  https://cdnjs.com/libraries/d3/3.1.1
+### ADD SCRIPT UNDER 	 < !-- jQuery (necessary for Bootstrap's JavaScript plugins) -- >
+#### Source:  https://cdnjs.com/libraries/d3/3.1.1
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.1.1/d3.js"></script>
 
-Source:  https://cdnjs.com/libraries/nvd3/1.8.5
+#### Source:  https://cdnjs.com/libraries/nvd3/1.8.5
 <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.js"></script>
 
  
  
  
-### ADD "Grafico Boxplot" class=gallery UNDER     <!-- Include all compiled plugins (below), or include individual files as needed -->
-Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlotCustomModel.html    
+### ADD "Grafico Boxplot" class=gallery UNDER     < !-- Include all compiled plugins (below), or include individual files as needed -->
+#### Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlotCustomModel.html    
 
 < ! -- Grafico boxplot -- >
 </head>
@@ -63,8 +63,10 @@ Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlotCustomModel.h
 
 
 
-### ADD SCRIPT INSIDE         /* Here you can put here some magic on Javascript */
-Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlot.html
+### ADD SCRIPT INSIDE         / * Here you can put here some magic on Javascript */
+
+#### Source:   https://github.com/novus/nvd3/blob/master/examples/boxPlot.html 
+
 
 <script>
     nv.addGraph(function() {

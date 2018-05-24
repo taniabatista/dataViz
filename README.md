@@ -1,25 +1,25 @@
 # dataViz 
 
 
-### COPY THE HTML FROM HERE  --> HTML template with Bootstrap@3.3.1 by CDN
-  https://gist.github.com/Pelirrojo/e111662431e642388e57572fca8efb05 
+### COPY THE HTML FROM:    HTML template with Bootstrap@3.3.1 by CDN
+Source:  https://gist.github.com/Pelirrojo/e111662431e642388e57572fca8efb05 
   
   
  
 ### PASTE IN CODEPEN 
-    https://codepen.io/taniabatista/pen/JvQjdv
+Source:  https://codepen.io/taniabatista/pen/JvQjdv
 
  
-### ADD LIBRARIES UNDER     <!-- Bootstrap -->]
+### ADD LIBRARIES UNDER     < !-- Bootstrap -- >
+Source:  https://cdnjs.com/libraries/nvd3/1.8.5
 
-      --> https://cdnjs.com/libraries/nvd3/1.8.5
 <link rel="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.css">
   
   
   
-### ADD STYLE UNDER      <!-- Bootstrap -->
-  
-    --> https://github.com/novus/nvd3/blob/master/examples/bulletChart.html 
+### ADD STYLE UNDER      < !-- Bootstrap -- >
+Source:  https://github.com/novus/nvd3/blob/master/examples/bulletChart.html 
+
 <style>
       text {
           font: 12px sans-serif;
@@ -38,20 +38,20 @@
     
     
 ### ADD SCRIPT UNDER 	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+Source:  https://cdnjs.com/libraries/d3/3.1.1
 
-    -->  https://cdnjs.com/libraries/d3/3.1.1
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.1.1/d3.js"></script>
 
-    --> https://cdnjs.com/libraries/nvd3/1.8.5
+Source:  https://cdnjs.com/libraries/nvd3/1.8.5
 <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.js"></script>
 
  
  
  
 ### ADD "Grafico Boxplot" class=gallery UNDER     <!-- Include all compiled plugins (below), or include individual files as needed -->
+Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlotCustomModel.html    
 
-    --> https://github.com/novus/nvd3/blob/master/examples/boxPlotCustomModel.html    
-<!-- Grafico boxplot -->
+< ! -- Grafico boxplot -- >
 </head>
 
 <body>
@@ -64,9 +64,9 @@
 
 
 ### ADD SCRIPT INSIDE         /* Here you can put here some magic on Javascript */
+Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlot.html
 
-      --> https://github.com/novus/nvd3/blob/master/examples/boxPlot.html
-    <script>
+<script>
     nv.addGraph(function() {
       var chart = nv.models.boxPlotChart()
           .x(function(d) { return d.label })

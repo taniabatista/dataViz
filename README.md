@@ -6,10 +6,14 @@
 #### Source:  https://gist.github.com/Pelirrojo/e111662431e642388e57572fca8efb05 
   
   
- 
+
+
 ### 2. PASTE IN CODEPEN 
 
 #### Paste to:  https://codepen.io/taniabatista/pen/JvQjdv
+  
+  
+
 
  
 ### 3. ADD LIBRARIES UNDER     < !-- Bootstrap -- >
@@ -19,8 +23,11 @@
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.css">
   
   
-  
-### 4. ADD STYLE UNDER      < !-- Bootstrap -- >
+
+
+
+### 4. ADD STYLE UNDER      
+### < !-- Bootstrap -- >
 
 #### Source:  https://github.com/novus/nvd3/blob/master/examples/bulletChart.html 
 
@@ -38,10 +45,14 @@
               width: 100%;
           }
       </style>
+  
+  
+
+
+  
     
-    
-    
-### 5. ADD SCRIPT UNDER 	 < !-- jQuery (necessary for Bootstrap's JavaScript plugins) -- >
+### 5. ADD SCRIPT UNDER 	
+### < !-- jQuery (necessary for Bootstrap's JavaScript plugins) -- >
 
 #### Source:  https://cdnjs.com/libraries/d3/3.1.1
 
@@ -54,7 +65,10 @@
  
  
  
-### 6. ADD "Grafico Boxplot" class=gallery UNDER     < !-- Include all compiled plugins (below), or include individual files as needed -->
+ 
+ 
+### 6. ADD "Grafico Boxplot" class=gallery UNDER    
+### < !-- Include all compiled plugins (below), or include individual files as needed -->
 
 #### Source:  https://github.com/novus/nvd3/blob/master/examples/boxPlotCustomModel.html    
 
@@ -70,9 +84,9 @@
 
 
 
+
+
 ### 7. ADD SCRIPT INSIDE         / * Here you can put here some magic on Javascript */
-
-
 #### Source:   https://github.com/novus/nvd3/blob/master/examples/boxPlot.html 
 
 
